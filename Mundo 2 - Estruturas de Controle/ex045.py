@@ -44,7 +44,7 @@ else:
         if (computador == "Papel"):
             vencedor = "JOGADOR"
         elif (computador == "Pedra"):
-            vencedor == "COMPUTADOR"
+            vencedor = "COMPUTADOR"
 
     print(f'{vencedor} VENCEU\n')
 
@@ -52,4 +52,4 @@ print("-=" * 10)
 print(f"Jogador jogou {jogador}.")
 print(f"Computador jogou {computador}.")
 print("-=" * 10)
-print("\n")
+print()
